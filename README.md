@@ -91,6 +91,10 @@ Uses HTTP 402 "Payment Required" for instant stablecoin payments over HTTP. Buil
 - [x402 on Solana](https://solana.com/developers/guides/getstarted/intro-to-x402) - Solana integration guide.
 - [x402 Foundation](https://github.com/x402-foundation/x402) - Neutral governance of the standard under the Linux Foundation, with 22 supporting organizations. [Foundation page](https://linuxfoundation.org/x402foundation/).
 
+#### Open Source & SDKs
+
+- [openai-agents-nano](https://github.com/dhyabi2/openai-agents-nano-x402) (v0.1.0, MIT, PyPI) — a thin adapter for the OpenAI Agents SDK that lets an agent pay any x402-priced HTTP endpoint using **self-custodied Nano (XNO)**: instant, feeless, no issuer that can freeze funds, no gas. Drop-in payer for `exact/nano:mainnet/XNO` in an `accepts[]` envelope. Tested live: a paid call to NanoGPT settled in 0.00001292 XNO, on-ledger, <1s finality. ([GitHub](https://github.com/dhyabi2/openai-agents-nano-x402), [PyPI](https://pypi.org/project/openai-agents-nano/), [live paid call evidence](https://github.com/pursekeeper/api/issues/18))
+
 ### L402
 
 Lightning Labs' protocol combining Macaroons (cryptographic bearer credentials) with Lightning Network micropayments for stateless API authentication. Pay-per-request APIs with no accounts and instant settlement. The Bitcoin-native counterpart to x402.
