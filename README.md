@@ -110,6 +110,13 @@ Practical toolkit for AI agents to make L402 payments. MCP server, CLI, and Pyth
 - [Fewsats MCP Server](https://github.com/fewsats/fewsats-mcp) - MCP server for AI agent payments.
 - [Fewsats Python SDK](https://github.com/Fewsats/L402-python) - L402 payments for AI agents.
 
+### Nano (XNO)
+
+Feeless, self-custodied layer-1 cryptocurrency with sub-second settlement finality and zero protocol fee. Its account model enables direct peer-to-peer payments without mining, inflation, or an issuing authority that can freeze or reverse transactions. AI agents can settle machine payments through a 402-style payer without a fee floor.
+
+- [Nano](https://nano.org) - Official site; instant, feeless, green.
+- [openai-agents-nano-x402](https://github.com/PANDeveloper001/openai-agents-nano-x402) - Client-side 402 payer for the OpenAI Agents SDK: settles API calls in instant feeless Nano (XNO).
+
 ## Fiat payment rails
 
 Card networks and payment processors building agent-specific primitives: tokenized credentials, sessionless merchant auth, and scoped payment tokens.
