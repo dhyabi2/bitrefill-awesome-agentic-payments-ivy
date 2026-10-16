@@ -211,6 +211,12 @@ Bitrefill maintains this list and provides agentic commerce tooling: an eCommerc
 - [Bitrefill Agents](https://github.com/bitrefill/agents) - Agent skills for shopping on Bitrefill (bitrefill-website, bitrefill-cli).
 - [Bitrefill CLI](https://github.com/bitrefill/cli) - Command-line client. Browse, buy, and manage gift cards, top-ups, and eSIMs.
 
+### Vend Browser Agent
+
+A pay-per-call x402 merchant that lets agents hire a real browser and settle the fee in Nano (XNO) with no account or API key: run a browser to search, click and answer a task, or scrape a page's final URL, title, visible text, item cards and interactive elements (single or in parallel). Shows how an agent buys work over an HTTP-402 rail rather than subscribing to a browser-automation SaaS.
+
+- [Vend Browser Agent](https://extract.paypercall.dev/api/v1/browser-agent) - Real-browser agent runs (`browser-agent`, `browser-agent/batch`) and stealth scraping (`scrape`, `scrape-batch`) settled per call in Nano via x402 v2 (0.05 XNO/run, 0.002 XNO/page); unpaid calls return HTTP 402.
+
 ## Further reading
 
 - [MCP, A2A, ACP, ANP Survey Paper](https://arxiv.org/html/2505.02279v1) - Academic comparison of all major agent protocols.
